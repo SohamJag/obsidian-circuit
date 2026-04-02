@@ -1,0 +1,10 @@
+.env
+.streamlit/
+test_*.py
+test_*.pdf
+test_*.html
+traceback_*.txt
+__pycache__/
+.venv/
+extensions/
+

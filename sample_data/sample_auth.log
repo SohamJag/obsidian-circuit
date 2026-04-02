@@ -1,0 +1,31 @@
+Mar 15 08:01:23 ubuntu sshd[12345]: Failed password for root from 192.168.1.100 port 22345 ssh2
+Mar 15 08:01:25 ubuntu sshd[12345]: Failed password for root from 192.168.1.100 port 22346 ssh2
+Mar 15 08:01:27 ubuntu sshd[12345]: Failed password for admin from 192.168.1.100 port 22347 ssh2
+Mar 15 08:01:29 ubuntu sshd[12345]: Failed password for admin from 192.168.1.100 port 22348 ssh2
+Mar 15 08:01:31 ubuntu sshd[12345]: Failed password for ubuntu from 192.168.1.100 port 22349 ssh2
+Mar 15 08:01:33 ubuntu sshd[12345]: Failed password for ubuntu from 192.168.1.100 port 22350 ssh2
+Mar 15 08:01:35 ubuntu sshd[12345]: Failed password for pi from 192.168.1.100 port 22351 ssh2
+Mar 15 08:01:37 ubuntu sshd[12345]: Failed password for pi from 192.168.1.100 port 22352 ssh2
+Mar 15 08:01:39 ubuntu sshd[12346]: Accepted password for ubuntu from 192.168.1.100 port 22353 ssh2
+Mar 15 08:01:39 ubuntu sshd[12346]: pam_unix(sshd:session): session opened for user ubuntu by (uid=0)
+Mar 15 08:02:15 ubuntu sshd[22222]: Failed password for invalid user test from 10.0.0.15 port 54321 ssh2
+Mar 15 08:02:17 ubuntu sshd[22222]: Failed password for invalid user test from 10.0.0.15 port 54322 ssh2
+Mar 15 08:02:19 ubuntu sshd[22222]: Failed password for invalid user ftpuser from 10.0.0.15 port 54323 ssh2
+Mar 15 08:03:00 ubuntu sshd[33333]: Accepted publickey for deploy from 172.16.0.5 port 41234 ssh2
+Mar 15 08:03:00 ubuntu sshd[33333]: pam_unix(sshd:session): session opened for user deploy by (uid=1001)
+Mar 15 08:04:45 ubuntu sudo[44444]: ubuntu : TTY=pts/0 ; PWD=/home/ubuntu ; USER=root ; COMMAND=/bin/bash
+Mar 15 08:05:01 ubuntu CRON[55555]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar 15 08:06:00 ubuntu sshd[66666]: Failed password for root from 203.0.113.45 port 11111 ssh2
+Mar 15 08:06:02 ubuntu sshd[66666]: Failed password for root from 203.0.113.45 port 11112 ssh2
+Mar 15 08:06:04 ubuntu sshd[66666]: Failed password for root from 203.0.113.45 port 11113 ssh2
+Mar 15 08:06:06 ubuntu sshd[66666]: Failed password for root from 203.0.113.45 port 11114 ssh2
+Mar 15 08:06:08 ubuntu sshd[66666]: Failed password for root from 203.0.113.45 port 11115 ssh2
+Mar 15 08:06:10 ubuntu sshd[66666]: Failed password for root from 203.0.113.45 port 11116 ssh2
+Mar 15 08:07:22 ubuntu sshd[77777]: Accepted password for root from 203.0.113.45 port 11120 ssh2
+Mar 15 08:07:22 ubuntu sshd[77777]: pam_unix(sshd:session): session opened for user root by (uid=0)
+Mar 15 08:08:00 ubuntu sshd[88888]: Failed password for invalid user oracle from 198.51.100.22 port 33333 ssh2
+Mar 15 08:08:02 ubuntu sshd[88888]: Failed password for invalid user postgres from 198.51.100.22 port 33334 ssh2
+Mar 15 08:08:04 ubuntu sshd[88888]: Failed password for invalid user mysql from 198.51.100.22 port 33335 ssh2
+Mar 15 08:10:00 ubuntu su[99999]: Successful su for root by ubuntu
+Mar 15 08:15:00 ubuntu sshd[11111]: Accepted password for ubuntu from 192.168.1.50 port 55555 ssh2
+Mar 15 08:15:00 ubuntu sshd[11111]: pam_unix(sshd:session): session opened for user ubuntu by (uid=0)

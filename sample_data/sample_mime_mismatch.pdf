@@ -1,0 +1,9 @@
+This is a plain text file disguised with a .pdf extension.
+It will trigger a MIME type mismatch detection in the File Analysis module.
+
+DEMO CONTENT:
+- Expected MIME: application/pdf
+- Detected MIME: text/plain
+- Severity: CRITICAL — MIME Type Mismatch
+
+This is intentionally crafted for testing the Obsidian Circuit File Analysis module.

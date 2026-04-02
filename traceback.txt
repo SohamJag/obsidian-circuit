@@ -1,0 +1,26 @@
+Traceback (most recent call last):
+  File "C:\Users\SOHAM\OBSIDIAN CIRCUIT FRESH\.venv\Lib\site-packages\fpdf\fpdf.py", line 5681, in normalize_text
+    return text.encode(self.core_fonts_encoding).decode("latin-1")
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+UnicodeEncodeError: 'latin-1' codec can't encode character '\U0001f6a8' in position 0: ordinal not in range(256)
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\SOHAM\OBSIDIAN CIRCUIT FRESH\test_fa_graphs.py", line 31, in <module>
+    pdf_out = generate_pdf_report("Analyst", "123", "2023-01-01", "Summary", findings)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\SOHAM\OBSIDIAN CIRCUIT FRESH\modules\report_generator.py", line 813, in generate_pdf_report
+    pdf.cell(145, 7, table_title, fill=True, border=0, ln=True)
+  File "C:\Users\SOHAM\OBSIDIAN CIRCUIT FRESH\.venv\Lib\site-packages\fpdf\fpdf.py", line 281, in wrapper
+    return fn(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\SOHAM\OBSIDIAN CIRCUIT FRESH\.venv\Lib\site-packages\fpdf\deprecation.py", line 36, in wrapper
+    return fn(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\SOHAM\OBSIDIAN CIRCUIT FRESH\.venv\Lib\site-packages\fpdf\fpdf.py", line 3910, in cell
+    text = self.normalize_text(text)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\SOHAM\OBSIDIAN CIRCUIT FRESH\.venv\Lib\site-packages\fpdf\fpdf.py", line 5683, in normalize_text
+    raise FPDFUnicodeEncodingException(
+fpdf.errors.FPDFUnicodeEncodingException: Character "🚨" at index 0 in text is outside the range of characters supported by the font used: "helveticaB". Please consider using a Unicode font.

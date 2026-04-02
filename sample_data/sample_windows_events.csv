@@ -1,0 +1,29 @@
+Date,Time,EventID,Level,Source,Computer,User,Description,IP
+2026-03-15,08:00:01,4625,Warning,Microsoft-Windows-Security-Auditing,DESKTOP-ABC123,SYSTEM,An account failed to log on. Logon Type: 3,192.168.1.100
+2026-03-15,08:00:05,4625,Warning,Microsoft-Windows-Security-Auditing,DESKTOP-ABC123,SYSTEM,An account failed to log on. Logon Type: 3,192.168.1.100
+2026-03-15,08:00:09,4625,Warning,Microsoft-Windows-Security-Auditing,DESKTOP-ABC123,SYSTEM,An account failed to log on. Logon Type: 3,192.168.1.100
+2026-03-15,08:00:13,4625,Warning,Microsoft-Windows-Security-Auditing,DESKTOP-ABC123,SYSTEM,An account failed to log on. Logon Type: 3,192.168.1.100
+2026-03-15,08:00:17,4625,Warning,Microsoft-Windows-Security-Auditing,DESKTOP-ABC123,SYSTEM,An account failed to log on. Logon Type: 3,192.168.1.100
+2026-03-15,08:00:21,4625,Warning,Microsoft-Windows-Security-Auditing,DESKTOP-ABC123,SYSTEM,An account failed to log on. Logon Type: 3,203.0.113.45
+2026-03-15,08:00:25,4625,Warning,Microsoft-Windows-Security-Auditing,DESKTOP-ABC123,SYSTEM,An account failed to log on. Logon Type: 3,203.0.113.45
+2026-03-15,08:00:29,4625,Warning,Microsoft-Windows-Security-Auditing,DESKTOP-ABC123,SYSTEM,An account failed to log on. Logon Type: 3,203.0.113.45
+2026-03-15,08:00:33,4625,Warning,Microsoft-Windows-Security-Auditing,DESKTOP-ABC123,SYSTEM,An account failed to log on. Logon Type: 3,203.0.113.45
+2026-03-15,08:00:37,4625,Warning,Microsoft-Windows-Security-Auditing,DESKTOP-ABC123,SYSTEM,An account failed to log on. Logon Type: 3,203.0.113.45
+2026-03-15,08:00:41,4625,Warning,Microsoft-Windows-Security-Auditing,DESKTOP-ABC123,SYSTEM,An account failed to log on. Logon Type: 3,203.0.113.45
+2026-03-15,08:01:05,4624,Information,Microsoft-Windows-Security-Auditing,DESKTOP-ABC123,Administrator,An account was successfully logged on. Logon Type: 3,203.0.113.45
+2026-03-15,08:01:10,4624,Information,Microsoft-Windows-Security-Auditing,DESKTOP-ABC123,Administrator,An account was successfully logged on. Logon Type: 10,192.168.1.50
+2026-03-15,08:02:00,4625,Warning,Microsoft-Windows-Security-Auditing,DESKTOP-ABC123,SYSTEM,An account failed to log on. Logon Type: 10,10.0.0.55
+2026-03-15,08:02:04,4625,Warning,Microsoft-Windows-Security-Auditing,DESKTOP-ABC123,SYSTEM,An account failed to log on. Logon Type: 10,10.0.0.55
+2026-03-15,08:02:08,4625,Warning,Microsoft-Windows-Security-Auditing,DESKTOP-ABC123,SYSTEM,An account failed to log on. Logon Type: 10,10.0.0.55
+2026-03-15,08:02:12,4625,Warning,Microsoft-Windows-Security-Auditing,DESKTOP-ABC123,SYSTEM,An account failed to log on. Logon Type: 10,10.0.0.55
+2026-03-15,08:02:16,4625,Warning,Microsoft-Windows-Security-Auditing,DESKTOP-ABC123,SYSTEM,An account failed to log on. Logon Type: 10,10.0.0.55
+2026-03-15,08:02:20,4625,Warning,Microsoft-Windows-Security-Auditing,DESKTOP-ABC123,SYSTEM,An account failed to log on. Logon Type: 10,10.0.0.55
+2026-03-15,08:03:00,4624,Information,Microsoft-Windows-Security-Auditing,DESKTOP-ABC123,Administrator,An account was successfully logged on. Logon Type: 3,172.16.0.1
+2026-03-15,08:04:00,4634,Information,Microsoft-Windows-Security-Auditing,DESKTOP-ABC123,Administrator,An account was logged off,192.168.1.50
+2026-03-15,08:05:00,4625,Warning,Microsoft-Windows-Security-Auditing,DESKTOP-ABC123,SYSTEM,An account failed to log on. Logon Type: 3,198.51.100.22
+2026-03-15,08:05:04,4625,Warning,Microsoft-Windows-Security-Auditing,DESKTOP-ABC123,SYSTEM,An account failed to log on. Logon Type: 3,198.51.100.22
+2026-03-15,08:05:08,4625,Warning,Microsoft-Windows-Security-Auditing,DESKTOP-ABC123,SYSTEM,An account failed to log on. Logon Type: 3,198.51.100.22
+2026-03-15,08:05:12,4625,Warning,Microsoft-Windows-Security-Auditing,DESKTOP-ABC123,SYSTEM,An account failed to log on. Logon Type: 3,198.51.100.22
+2026-03-15,08:05:16,4625,Warning,Microsoft-Windows-Security-Auditing,DESKTOP-ABC123,SYSTEM,An account failed to log on. Logon Type: 3,198.51.100.22
+2026-03-15,08:06:00,4648,Warning,Microsoft-Windows-Security-Auditing,DESKTOP-ABC123,SYSTEM,A logon was attempted using explicit credentials,203.0.113.45
+2026-03-15,08:07:00,4776,Warning,Microsoft-Windows-Security-Auditing,DESKTOP-ABC123,SYSTEM,The computer attempted to validate the credentials for an account,203.0.113.45
